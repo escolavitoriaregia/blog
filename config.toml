@@ -22,3 +22,9 @@ theme = "tale"
     title = "About"
     url = "/about/"
     weight = 0
+  [[menu.main]]
+    identifier = "backmain"
+    name = "Voltar pro site"
+    title = "Voltar pro site"
+    url = "https://escolavitoriaregiacz.com.br/"
+    weight = 0
