@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+
+<nav class="nav">
+  <div class="nav-container">
+    <a href="{{ "/" | relURL }}">
+      <!-- <h2 class="nav-title">{{ .Site.Title }}</h2> -->
+      <img style="width: 10%;" src="{{ .Site.BaseURL }}images/logo.png" alt="Logo EVR">
+    </a>
+    {{ partial "header-menu.html" . }}
+  </div>
+</nav>
